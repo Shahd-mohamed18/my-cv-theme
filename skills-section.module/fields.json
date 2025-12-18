@@ -1,0 +1,152 @@
+[ {
+  "id" : "bbf0ad83-a4a9-7a44-75f7-612bcb9af6c5",
+  "name" : "section_title",
+  "label" : "Section Title",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null
+}, {
+  "id" : "5e6a5a0c-62ba-c352-47e4-349f6548858c",
+  "name" : "field_group",
+  "label" : "Field group",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "ebf1491f-8be7-a618-6ead-81bba5d058a4",
+    "name" : "skill_1_name",
+    "label" : "Skill 1 Name",
+    "required" : false,
+    "locked" : false,
+    "allow_new_line" : false,
+    "type" : "text",
+    "display_width" : null,
+    "default" : "HTML & CSS"
+  }, {
+    "id" : "6d4d2ef3-fda0-3c50-6f2a-012fa9fc6ca0",
+    "name" : "skill_1_percentage",
+    "label" : "Skill 1 Level (%)",
+    "required" : false,
+    "locked" : false,
+    "display" : "text",
+    "step" : 1,
+    "type" : "number",
+    "display_width" : null,
+    "default" : 90
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "display_width" : null,
+  "default" : {
+    "skill_1_name" : "HTML & CSS",
+    "skill_1_percentage" : 90
+  }
+}, {
+  "id" : "6b936e72-4223-520b-d077-ada1bed9f336",
+  "name" : "skill_2_name",
+  "label" : "Skill 2 Name",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null,
+  "default" : "JavaScript"
+}, {
+  "id" : "e36ac6cb-ad33-ad39-2678-6be4fd832b31",
+  "name" : "skill_2_percentage",
+  "label" : "Skill 2 Level (%)",
+  "required" : false,
+  "locked" : false,
+  "display" : "text",
+  "step" : 1,
+  "type" : "number",
+  "display_width" : null,
+  "default" : 85
+}, {
+  "id" : "1ff80a3c-9b29-0c59-5894-8663d4cf18d5",
+  "name" : "skill_3_name",
+  "label" : "Skill 3 Name",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null,
+  "default" : "React"
+}, {
+  "id" : "aa537240-50d1-4cb0-db01-9d5e7ded3b09",
+  "name" : "skill_3_percentage",
+  "label" : "Skill 3 Level (%)",
+  "required" : false,
+  "locked" : false,
+  "display" : "text",
+  "step" : 1,
+  "type" : "number",
+  "display_width" : null,
+  "default" : 80
+}, {
+  "id" : "97479b08-e9bd-91b3-7fb6-ef34cb1f202c",
+  "name" : "skill_4_name",
+  "label" : "Skill 4 Name",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null,
+  "default" : "HubSpot CMS"
+}, {
+  "id" : "374cfdf0-7b4b-1aed-db02-9bd2d7a32834",
+  "name" : "skill_4_percentage",
+  "label" : "Skill 4 Level (%)",
+  "required" : false,
+  "locked" : false,
+  "display" : "text",
+  "step" : 1,
+  "type" : "number",
+  "display_width" : null,
+  "default" : 70
+}, {
+  "id" : "469dde43-7173-9e97-a78e-ba82f39e749a",
+  "name" : "skill_5_name",
+  "label" : "Skill 5 Name",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null,
+  "default" : "UI/UX Design"
+}, {
+  "id" : "d3aa4f34-89ae-c298-dc40-517a69cd208c",
+  "name" : "skill_5_percentage",
+  "label" : "Skill 5 Level (%)",
+  "required" : false,
+  "locked" : false,
+  "display" : "text",
+  "step" : 1,
+  "type" : "number",
+  "display_width" : null,
+  "default" : 60
+}, {
+  "id" : "ffc77446-de6b-3d0e-655d-7cdf4c53c595",
+  "name" : "skill_6_name",
+  "label" : "Skill 6 Name",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null,
+  "default" : "Git & GitHub"
+}, {
+  "id" : "a2f761ec-c876-53cb-0fb0-becc54ccfc2c",
+  "name" : "skill_6_percentage",
+  "label" : "Skill 6 Level (%)",
+  "required" : false,
+  "locked" : false,
+  "display" : "text",
+  "step" : 1,
+  "type" : "number",
+  "display_width" : null,
+  "default" : 60
+} ]

@@ -1,0 +1,190 @@
+[ {
+  "id" : "d9b51244-2332-33f8-528d-d81ad57f282e",
+  "name" : "section_title",
+  "label" : "Section Title",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null
+}, {
+  "id" : "a5ae0d65-ad8d-f487-01e7-3a43b1bc8eb7",
+  "name" : "project_1_title",
+  "label" : "Project 1 Title",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null,
+  "default" : "E-Commerce Website"
+}, {
+  "id" : "3c3188e7-b90e-2e93-b5ac-a70d5ed7ae97",
+  "name" : "project_1_description",
+  "label" : "Project 1 Description",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "display_width" : null,
+  "default" : "A fully responsive e-commerce platform"
+}, {
+  "id" : "ec7406ce-c1f2-9917-3bc6-f4279952fffe",
+  "name" : "project_1_image",
+  "label" : "Project 1 Image",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "display_width" : null,
+  "default" : {
+    "size_type" : "auto",
+    "src" : "",
+    "alt" : null,
+    "loading" : "lazy"
+  }
+}, {
+  "id" : "a8f872dc-efd1-acdf-73fc-0aa80eec708e",
+  "name" : "project_1_link",
+  "label" : "Project 1 Link",
+  "required" : false,
+  "locked" : false,
+  "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG", "PHONE_NUMBER", "PAYMENT" ],
+  "type" : "url",
+  "display_width" : null,
+  "default" : {
+    "content_id" : null,
+    "href" : "",
+    "type" : "EXTERNAL"
+  }
+}, {
+  "id" : "c74b264e-a511-58bb-eeef-783986b351af",
+  "name" : "project_1_tech",
+  "label" : "Project 1 Technologies",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null,
+  "default" : "HTML, CSS, JavaScript"
+}, {
+  "id" : "857d3d16-6037-bf8a-e997-5c333f142ae1",
+  "name" : "project_2_title",
+  "label" : "Project 2 Title",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null,
+  "default" : "Portfolio Website"
+}, {
+  "id" : "80caec62-d089-c851-25d1-45414ec875bf",
+  "name" : "project_2_description",
+  "label" : "Project 2 Description",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "display_width" : null,
+  "default" : "Personal portfolio website"
+}, {
+  "id" : "6c5beaf3-52e0-d546-334e-7f5492d57e5a",
+  "name" : "project_2_image",
+  "label" : "Project 2 Image",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "display_width" : null,
+  "default" : {
+    "size_type" : "auto",
+    "src" : "",
+    "alt" : null,
+    "loading" : "lazy"
+  }
+}, {
+  "id" : "e0339033-6ed4-5ec8-71b2-ec35b29e7dde",
+  "name" : "project_2_link",
+  "label" : "Project 2 Link",
+  "required" : false,
+  "locked" : false,
+  "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG", "PHONE_NUMBER", "PAYMENT" ],
+  "type" : "url",
+  "display_width" : null,
+  "default" : {
+    "content_id" : null,
+    "href" : "",
+    "type" : "EXTERNAL"
+  }
+}, {
+  "id" : "47023cfc-babb-a2b9-8c0d-5aeeca6c70b8",
+  "name" : "project_2_tech",
+  "label" : "Project 2 Technologies",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null,
+  "default" : "React, Tailwind CSS"
+}, {
+  "id" : "fe004e4c-3d66-dfb2-b396-b2231e1fac70",
+  "name" : "project_3_title_",
+  "label" : "Project 3 Title ",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null,
+  "default" : "Task Management App"
+}, {
+  "id" : "c2c3145c-05c1-cea7-1d57-93155615c914",
+  "name" : "project_3_description_",
+  "label" : "Project 3 Description ",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "display_width" : null,
+  "default" : "<p>Collaborative task manager</p>"
+}, {
+  "id" : "70f6ddbe-6e77-6701-cdb5-10bbf39446be",
+  "name" : "project_3_image_",
+  "label" : "Project 3 Image ",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "display_width" : null,
+  "default" : {
+    "size_type" : "auto",
+    "src" : "",
+    "alt" : null,
+    "loading" : "lazy"
+  }
+}, {
+  "id" : "c16aa97a-817d-0f06-0b75-54fc88253354",
+  "name" : "project_3_link_",
+  "label" : "Project 3 Link ",
+  "required" : false,
+  "locked" : false,
+  "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG", "PHONE_NUMBER", "PAYMENT" ],
+  "type" : "url",
+  "display_width" : null,
+  "default" : {
+    "content_id" : null,
+    "href" : "",
+    "type" : "EXTERNAL"
+  }
+}, {
+  "id" : "f1631b73-e72c-7c1c-9a0c-7897eeeca229",
+  "name" : "project_3_tech",
+  "label" : "Project 3 Technologies",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null,
+  "default" : "JavaScript, Firebase"
+} ]

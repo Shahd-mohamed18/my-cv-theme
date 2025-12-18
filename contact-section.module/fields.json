@@ -1,0 +1,78 @@
+[ {
+  "id" : "1fcc9fc8-226c-0a9e-b184-0bde9b3089d0",
+  "name" : "section_title",
+  "label" : "Section Title",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null,
+  "default" : "Get In Touch"
+}, {
+  "id" : "0fe76cce-504f-1eca-7e30-57c0384f0011",
+  "name" : "section_subtitle",
+  "label" : "Section Subtitle",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null,
+  "default" : "Feel free to reach out for collaborations or just a friendly chat"
+}, {
+  "id" : "35de854c-8e2d-829a-c906-82ab552bd36b",
+  "name" : "contact_email",
+  "label" : "Your Email",
+  "required" : false,
+  "locked" : false,
+  "allow_custom_email_addresses" : true,
+  "type" : "email",
+  "display_width" : null,
+  "default" : [ "sm3713@fayoum.edu.eg" ]
+}, {
+  "id" : "8d3ecef8-01c8-4499-3f24-d9bc77d10b2d",
+  "name" : "contact_phone",
+  "label" : "Phone Number",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null
+}, {
+  "id" : "66bdc719-04cb-4bdb-735e-68028d1e5608",
+  "name" : "linkedin_url",
+  "label" : "LinkedIn Profile URL",
+  "required" : false,
+  "locked" : false,
+  "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG", "PHONE_NUMBER", "PAYMENT" ],
+  "type" : "url",
+  "display_width" : null,
+  "default" : {
+    "content_id" : null,
+    "href" : "",
+    "type" : "EXTERNAL"
+  }
+}, {
+  "id" : "89bab8e3-464d-3bf0-f3d5-3eb1a3ae456d",
+  "name" : "github_url",
+  "label" : "GitHub Profile URL",
+  "required" : false,
+  "locked" : false,
+  "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG", "PHONE_NUMBER", "PAYMENT" ],
+  "type" : "url",
+  "display_width" : null,
+  "default" : {
+    "content_id" : null,
+    "href" : "",
+    "type" : "EXTERNAL"
+  }
+}, {
+  "id" : "f327538d-958a-c260-99cc-8013da08671c",
+  "name" : "display_contact_form",
+  "label" : "Display Contact Form",
+  "required" : false,
+  "locked" : false,
+  "display" : "checkbox",
+  "type" : "boolean",
+  "display_width" : null,
+  "default" : true
+} ]

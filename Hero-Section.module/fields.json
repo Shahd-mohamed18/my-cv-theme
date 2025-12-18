@@ -1,0 +1,58 @@
+[ {
+  "id" : "d28d85ff-04b5-345e-9593-ea88c4caf6ae",
+  "name" : "hero_title",
+  "label" : "Main Title",
+  "required" : true,
+  "locked" : false,
+  "type" : "richtext",
+  "display_width" : null,
+  "default" : "defult"
+}, {
+  "id" : "d9368187-7170-0996-ee99-0247ac8f388b",
+  "name" : "hero_subtitle",
+  "label" : "Subtitle",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "display_width" : null
+}, {
+  "id" : "166b669d-6277-9cc3-4e9b-8a3f51b7d645",
+  "name" : "hero_image",
+  "label" : "Background Image",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "display_width" : null,
+  "default" : {
+    "size_type" : "auto",
+    "src" : "",
+    "alt" : null,
+    "loading" : "lazy"
+  }
+}, {
+  "id" : "b2dec779-1d43-12c1-033d-b98ffc636be4",
+  "name" : "cta_text",
+  "label" : "Button Text",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null
+}, {
+  "id" : "d3eed10b-cbfe-1dc7-fd4d-09b4db035c3d",
+  "name" : "cta_link",
+  "label" : "Button Link",
+  "required" : false,
+  "locked" : false,
+  "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG", "PHONE_NUMBER", "PAYMENT" ],
+  "type" : "url",
+  "display_width" : null,
+  "default" : {
+    "content_id" : null,
+    "href" : "",
+    "type" : "EXTERNAL"
+  }
+} ]

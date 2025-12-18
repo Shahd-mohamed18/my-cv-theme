@@ -1,0 +1,94 @@
+<!-- Contact Section HTML -->
+<section id="contact" class="contact-section">
+  <div class="contact-container">
+    <div class="section-header">
+      <span class="section-badge">Get In Touch</span>
+      <h2 class="section-title">{{ module.section_title|default("Let's Work Together") }}</h2>
+      <p class="section-subtitle">{{ module.section_subtitle|default("Have a project in mind? Let's discuss how we can collaborate") }}</p>
+    </div>
+
+    <div class="contact-wrapper">
+      <!-- Contact Info Cards -->
+      <div class="contact-cards">
+        {% if module.contact_email %}
+        <div class="contact-card">
+          <div class="card-icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <h3>Email</h3>
+          <a href="mailto:{{ module.contact_email }}">{{ module.contact_email }}</a>
+        </div>
+        {% endif %}
+
+        {% if module.contact_phone %}
+        <div class="contact-card">
+          <div class="card-icon">
+            <i class="fas fa-phone-alt"></i>
+          </div>
+          <h3>Phone</h3>
+          <a href="tel:{{ module.contact_phone }}">{{ module.contact_phone }}</a>
+        </div>
+        {% endif %}
+
+        <div class="contact-card social-card">
+          <div class="card-icon">
+            <i class="fas fa-share-alt"></i>
+          </div>
+          <h3>Follow Me</h3>
+          <div class="social-links">
+            {% if module.linkedin_url %}
+              <a href="{{ module.linkedin_url }}" target="_blank" rel="noopener" title="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            {% endif %}
+            {% if module.github_url %}
+              <a href="{{ module.github_url }}" target="_blank" rel="noopener" title="GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+            {% endif %}
+            {% if module.twitter_url %}
+              <a href="{{ module.twitter_url }}" target="_blank" rel="noopener" title="Twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
+            {% endif %}
+            {% if module.instagram_url %}
+              <a href="{{ module.instagram_url }}" target="_blank" rel="noopener" title="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      {% if module.show_contact_form %}
+      <div class="contact-form-section">
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label>Your Name</label>
+              <input type="text" placeholder="John Doe" required>
+            </div>
+            <div class="form-group">
+              <label>Your Email</label>
+              <input type="email" placeholder="john@example.com" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Subject</label>
+            <input type="text" placeholder="Project Discussion">
+          </div>
+          <div class="form-group">
+            <label>Message</label>
+            <textarea rows="6" placeholder="Tell me about your project..." required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">
+            <span>Send Message</span>
+            <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</section>

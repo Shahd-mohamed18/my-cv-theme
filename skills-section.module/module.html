@@ -1,0 +1,128 @@
+<!-- Skills Section HTML -->
+<section id="skills" class="skills-section">
+  <div class="skills-container">
+    <div class="section-header">
+      <span class="section-badge">My Expertise</span>
+      <h2 class="section-title">{{ module.section_title|default("Skills & Technologies") }}</h2>
+      <p class="section-subtitle">{{ module.section_subtitle|default("Tools and technologies I use to bring ideas to life") }}</p>
+    </div>
+    
+    <div class="skills-grid">
+      
+      {% if module.skill_1_name %}
+      <div class="skill-card">
+        <div class="skill-header">
+          {% if module.skill_1_icon %}
+            <div class="skill-icon" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+              <i class="{{ module.skill_1_icon }}"></i>
+            </div>
+          {% endif %}
+          <div class="skill-info">
+            <h3>{{ module.skill_1_name }}</h3>
+            <span class="skill-percentage">{{ module.skill_1_percentage|default(85) }}%</span>
+          </div>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width: {{ module.skill_1_percentage|default(85) }}%; background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);"></div>
+        </div>
+      </div>
+      {% endif %}
+      
+      {% if module.skill_2_name %}
+      <div class="skill-card">
+        <div class="skill-header">
+          {% if module.skill_2_icon %}
+            <div class="skill-icon" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+              <i class="{{ module.skill_2_icon }}"></i>
+            </div>
+          {% endif %}
+          <div class="skill-info">
+            <h3>{{ module.skill_2_name }}</h3>
+            <span class="skill-percentage">{{ module.skill_2_percentage|default(90) }}%</span>
+          </div>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width: {{ module.skill_2_percentage|default(90) }}%; background: linear-gradient(90deg, #f093fb 0%, #f5576c 100%);"></div>
+        </div>
+      </div>
+      {% endif %}
+      
+      {% if module.skill_3_name %}
+      <div class="skill-card">
+        <div class="skill-header">
+          {% if module.skill_3_icon %}
+            <div class="skill-icon" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+              <i class="{{ module.skill_3_icon }}"></i>
+            </div>
+          {% endif %}
+          <div class="skill-info">
+            <h3>{{ module.skill_3_name }}</h3>
+            <span class="skill-percentage">{{ module.skill_3_percentage|default(80) }}%</span>
+          </div>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width: {{ module.skill_3_percentage|default(80) }}%; background: linear-gradient(90deg, #4facfe 0%, #00f2fe 100%);"></div>
+        </div>
+      </div>
+      {% endif %}
+      
+      {% if module.skill_4_name %}
+      <div class="skill-card">
+        <div class="skill-header">
+          {% if module.skill_4_icon %}
+            <div class="skill-icon" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+              <i class="{{ module.skill_4_icon }}"></i>
+            </div>
+          {% endif %}
+          <div class="skill-info">
+            <h3>{{ module.skill_4_name }}</h3>
+            <span class="skill-percentage">{{ module.skill_4_percentage|default(75) }}%</span>
+          </div>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width: {{ module.skill_4_percentage|default(75) }}%; background: linear-gradient(90deg, #43e97b 0%, #38f9d7 100%);"></div>
+        </div>
+      </div>
+      {% endif %}
+      
+      {% if module.skill_5_name %}
+      <div class="skill-card">
+        <div class="skill-header">
+          {% if module.skill_5_icon %}
+            <div class="skill-icon" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);">
+              <i class="{{ module.skill_5_icon }}"></i>
+            </div>
+          {% endif %}
+          <div class="skill-info">
+            <h3>{{ module.skill_5_name }}</h3>
+            <span class="skill-percentage">{{ module.skill_5_percentage|default(88) }}%</span>
+          </div>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width: {{ module.skill_5_percentage|default(88) }}%; background: linear-gradient(90deg, #fa709a 0%, #fee140 100%);"></div>
+        </div>
+      </div>
+      {% endif %}
+      
+      {% if module.skill_6_name %}
+      <div class="skill-card">
+        <div class="skill-header">
+          {% if module.skill_6_icon %}
+            <div class="skill-icon" style="background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);">
+              <i class="{{ module.skill_6_icon }}"></i>
+            </div>
+          {% endif %}
+          <div class="skill-info">
+            <h3>{{ module.skill_6_name }}</h3>
+            <span class="skill-percentage">{{ module.skill_6_percentage|default(82) }}%</span>
+          </div>
+        </div>
+        <div class="skill-bar">
+          <div class="skill-progress" style="width: {{ module.skill_6_percentage|default(82) }}%; background: linear-gradient(90deg, #30cfd0 0%, #330867 100%);"></div>
+        </div>
+      </div>
+      {% endif %}
+
+    </div>
+  </div>
+</section>
